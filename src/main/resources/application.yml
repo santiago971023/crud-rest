@@ -1,0 +1,15 @@
+server:
+  port: 8087
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/restaurantes
+    username: root
+    password: toor
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+appDescription: "Practice Arq. Hexagonal with spring"
+appVersion: "1.0.0"
